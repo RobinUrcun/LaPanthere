@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: grey;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -284,7 +284,8 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .navbar {
@@ -677,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -727,7 +728,7 @@ h1 {
 }
 
 h4 {
-    color: #333333!important;
+    color: black!important;
 }
 
 .icons {
@@ -736,7 +737,21 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFF!important;
+}
+.black {
+    color: black;
+}
+
+.img-size{
+    width: 100%;
+    height: 100%;
+}
+
+.homeground {
+    font-size: 25px;
+    position: relative;
+    z-index: 99;
 }
 
 .portfolio-thumb {
@@ -771,16 +786,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #fbf4e2;
 }
 
-.tc-white {
-    color: #F3976C!important;
+.tc-blue {
+    color: #A9CBD7!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #fbf4e2;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -810,19 +825,51 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.jpg.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
+}
+
+.img-main{
+    width: 100px;
+    height: 100px;
+}
+
+.img-navbar{
+    height: 40px;
+    width: 217px;
+}
+
+.citation{
+    font-size: 22px;
+}
+
+.citation-light{
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.marge-citation-1{
+    margin: 0 10% 25px 10%;
+}
+
+.marge-citation-2{
+    margin: 0 17% 0px 17%;
+    line-height: 1;
+}
+
+.marge-citation-3{
+    margin: 15px 25% 15px 25%;
 }
 
 @media (max-width: 1024px) {
